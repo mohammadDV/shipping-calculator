@@ -1,0 +1,13 @@
+{
+    "name": "app/shipping-calculator",
+    "description": "Shipping cost calculator",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}
