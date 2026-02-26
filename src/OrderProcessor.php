@@ -12,7 +12,7 @@ final class OrderProcessor
     /**
      * Create an order processor with the given calculator resolver.
      *
-     * @param ShippingCalculatorResolver $resolver Resolver used to find the cost calculator by method.
+     * @param ShippingCalculatorResolver $resolver 
      */
     public function __construct(
         private ShippingCalculatorResolver $resolver,
@@ -22,7 +22,7 @@ final class OrderProcessor
      * Process an order and return the shipping cost breakdown.
      *
      * @param Order $order The order to process.
-     * @return array<string, int|float> Cost breakdown (base_cost, weight_cost, insurance_cost, extra_cost, total_cost).
+     * @return array<string, int|float> 
      */
     public function process(Order $order): array
     {
